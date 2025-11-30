@@ -6,8 +6,11 @@
 #include <cstring>
 #include <fcntl.h>
 #include <vector>
-#include <boost/process.hpp>
+#include <boost/process/v1/pipe.hpp>
+#include <boost/process/v1/io.hpp>
+#include <boost/process/v1/child.hpp>
 #include <boost/asio.hpp>
+#include <boost/asio/posix/stream_descriptor.hpp>
 
 using namespace StormByte::VideoConvert;
 
@@ -26,7 +29,7 @@ Task::STATUS Task::Execute::Base::do_work(std::optional<pid_t>& worker) noexcept
 	STATUS status = STOPPED;
 
 	if (!m_executables.empty()) {
-		asio::io_service ios;
+		asio::io_context ios;
 
 		try {
 			
@@ -37,7 +40,9 @@ Task::STATUS Task::Execute::Base::do_work(std::optional<pid_t>& worker) noexcept
 			auto inBuffer{ asio::buffer(m_stdin) };
 
 			// stdout setup
-			process::async_pipe pipeOut(ios);
+            // stdout setup: use a pipe + posix stream_descriptor for async reads
+			boost::process::v1::pipe pipeOut;
+            asio::posix::stream_descriptor sdOut(ios, pipeOut.native_source());
 
 			std::function<void(const system::error_code & ec, std::size_t n)> onStdOut;
 			onStdOut = [&](const system::error_code & ec, size_t n)
@@ -45,12 +50,13 @@ Task::STATUS Task::Execute::Base::do_work(std::optional<pid_t>& worker) noexcept
 				m_stdout.reserve(m_stdout.size() + n);
 				m_stdout.insert(m_stdout.end(), vOut.begin(), vOut.begin() + n);
 				if (!ec) {
-					asio::async_read(pipeOut, outBuffer, onStdOut);
+					asio::async_read(sdOut, outBuffer, onStdOut);
 				}
 			};
 
 			// stderr setup
-			process::async_pipe pipeErr(ios);
+			boost::process::v1::pipe pipeErr;
+            asio::posix::stream_descriptor sdErr(ios, pipeErr.native_source());
 
 			std::function<void(const system::error_code & ec, std::size_t n)> onStdErr;
 			onStdErr = [&](const system::error_code & ec, size_t n) {
@@ -58,31 +64,34 @@ Task::STATUS Task::Execute::Base::do_work(std::optional<pid_t>& worker) noexcept
 				m_stderr.insert(m_stderr.end(), vErr.begin(), vErr.begin() + n);
 				if (!ec)
 				{
-					asio::async_read(pipeErr, errBuffer, onStdErr);
+					asio::async_read(sdErr, errBuffer, onStdErr);
 				}
 			};
 
 			// stdin setup
-			process::async_pipe pipeIn(ios);
+			boost::process::v1::pipe pipeIn;
+            asio::posix::stream_descriptor sdIn(ios, pipeIn.native_sink());
 
 			if (m_logger)
 				m_logger->message_line(Utils::Logger::LEVEL_DEBUG, "Executing " + m_executables[0].m_program.string() + " " + m_executables[0].m_arguments);
 
-			process::child c(
+			boost::process::v1::child c(
 				m_executables[0].m_program.string() + " " + m_executables[0].m_arguments,
-				process::std_out > pipeOut, 
-				process::std_err > pipeErr, 
-				process::std_in < pipeIn
+				boost::process::v1::std_out > pipeOut,
+				boost::process::v1::std_err > pipeErr,
+				boost::process::v1::std_in < pipeIn
 			);
 
 			
-			asio::async_write(pipeIn, inBuffer, 
+			asio::async_write(sdIn, inBuffer,
 				[&](const system::error_code&, std::size_t) {
-					pipeIn.async_close(); //  tells the child we have no more data
+					// close the parent write end to signal EOF to child
+					boost::system::error_code ec;
+					sdIn.close(ec);
 				});
 
-			asio::async_read(pipeOut, outBuffer, onStdOut);
-			asio::async_read(pipeErr, errBuffer, onStdErr);
+			asio::async_read(sdOut, outBuffer, onStdOut);
+			asio::async_read(sdErr, errBuffer, onStdErr);
 			
 			// We update worker BEFORE this is run as this is a blocking call
 			worker = c.id();
