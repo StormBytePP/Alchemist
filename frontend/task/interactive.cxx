@@ -118,12 +118,11 @@ void Frontend::Task::Interactive::update_title_renamed(const FFprobe& film_data,
 }
 
 Frontend::Task::Interactive::stream_map_t Frontend::Task::Interactive::initialize_stream_map() {
-	return std::map<FFprobe::stream::TYPE, std::map<unsigned short, Database::Data::film::stream>> {
-		{
-			{ FFprobe::stream::VIDEO,		{} },
-			{ FFprobe::stream::AUDIO,		{} },
-			{ FFprobe::stream::SUBTITLE,	{} }
-		}
+	// Return using the typedef `stream_map_t` so inner maps use `short` keys (supports -1 sentinel)
+	return stream_map_t{
+		{ FFprobe::stream::VIDEO,    {} },
+		{ FFprobe::stream::AUDIO,    {} },
+		{ FFprobe::stream::SUBTITLE, {} }
 	};
 }
 

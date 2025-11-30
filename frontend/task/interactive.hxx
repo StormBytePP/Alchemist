@@ -20,8 +20,8 @@ namespace StormByte::VideoConvert::Frontend::Task {
 			VideoConvert::Task::STATUS pre_run_actions() noexcept override;
 			VideoConvert::Task::STATUS do_work(std::optional<pid_t>&) noexcept override;
 
-			using stream_map_t						= std::map<FFprobe::stream::TYPE, std::map<unsigned short, Database::Data::film::stream>>;
-			using stream_id_t						= std::pair<FFprobe::stream::TYPE, short>; // Not unsigned as can be -1 for all
+			using stream_map_t					= std::map<FFprobe::stream::TYPE, std::map<short, Database::Data::film::stream>>;
+			using stream_id_t					= std::pair<FFprobe::stream::TYPE, short>; // Not unsigned as can be -1 for all
 			using group_file_info_t					= std::pair<std::list<Types::path_t>, std::list<Types::path_t>>; // First valid files, second invalid files (not having supported extensions)
 			using film_group_t						= std::list<Database::Data::film>;
 
