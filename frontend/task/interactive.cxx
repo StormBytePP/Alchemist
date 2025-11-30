@@ -273,9 +273,14 @@ void Frontend::Task::Interactive::ask_stream([[maybe_unused]]const FFprobe& prob
 		}
 		#endif
 	}
-	else if (strm_id.first == FFprobe::stream::AUDIO) {
-		stream.m_channels = probe.get_stream(strm_id.first)[strm_id.second].channels;
-	}
+	    else if (strm_id.first == FFprobe::stream::AUDIO) {
+		    // Only access probe stream by index when a specific stream was selected
+		    if (strm_id.second >= 0) {
+			auto const& audio_streams = probe.get_stream(strm_id.first);
+			if (static_cast<size_t>(strm_id.second) < audio_streams.size())
+			    stream.m_channels = audio_streams[static_cast<size_t>(strm_id.second)].channels;
+		    }
+	    }
 	else if (strm_id.first == FFprobe::stream::SUBTITLE) {
 		// Nothing yet
 	}
@@ -287,11 +292,12 @@ void Frontend::Task::Interactive::ask_stream([[maybe_unused]]const FFprobe& prob
 	// Else we could have before a -1 and now we want specific
 	else if (strm_map.at(strm_id.first).count(-1) == 1) {
 		// In which case we need to copy that -1 as if it were specific
-		auto stream_info = strm_map.at(strm_id.first)[-1];
+		auto stream_info = strm_map.at(strm_id.first)[static_cast<short>(-1)];
 		strm_map.at(strm_id.first).clear();
-		for (size_t i = 0; i < probe.get_stream(strm_id.first).size(); i++) {
+		auto const& streams = probe.get_stream(strm_id.first);
+		for (int i = 0; i < static_cast<int>(streams.size()); ++i) {
 			stream_info.m_id = i;
-			strm_map.at(strm_id.first)[i] = stream_info;
+			strm_map.at(strm_id.first)[static_cast<short>(i)] = stream_info;
 		}
 	}
 
