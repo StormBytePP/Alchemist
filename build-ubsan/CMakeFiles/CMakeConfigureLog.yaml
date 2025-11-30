@@ -1,0 +1,2596 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 6.17.9-Wesker.Umbrella - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/clang"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/clang"
+      - "/usr/local/sbin/clang"
+      - "/usr/local/bin/clang"
+      - "/usr/bin/clang"
+      - "/opt/bin/clang"
+    found: "/usr/lib/llvm/21/bin/clang"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/lib/llvm/21/bin/clang 
+      Build flags: -fsanitize=address,undefined;-fno-omit-frame-pointer;-g
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/4.1.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/ld.lld"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-dlltool"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    found: "/usr/lib/llvm/21/bin/llvm-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    searched_directories:
+      - "/usr/lib/llvm/21/bin/tapi"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/opt/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    searched_directories:
+      - "/usr/lib/llvm/21/bin/llvm-ar-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.1"
+      - "/usr/local/sbin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21.1"
+      - "/opt/bin/llvm-ar-21.1"
+      - "/usr/lib/llvm/21/bin/llvm-ar-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21"
+      - "/usr/local/sbin/llvm-ar-21"
+      - "/usr/local/bin/llvm-ar-21"
+      - "/usr/bin/llvm-ar-21"
+      - "/opt/bin/llvm-ar-21"
+      - "/usr/lib/llvm/21/bin/llvm-ar21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21"
+      - "/usr/local/sbin/llvm-ar21"
+      - "/usr/local/bin/llvm-ar21"
+      - "/usr/bin/llvm-ar21"
+      - "/opt/bin/llvm-ar21"
+    found: "/usr/lib/llvm/21/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    searched_directories:
+      - "/usr/lib/llvm/21/bin/llvm-ranlib-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.1"
+      - "/usr/local/sbin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/opt/bin/llvm-ranlib-21.1"
+      - "/usr/lib/llvm/21/bin/llvm-ranlib-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21"
+      - "/usr/local/sbin/llvm-ranlib-21"
+      - "/usr/local/bin/llvm-ranlib-21"
+      - "/usr/bin/llvm-ranlib-21"
+      - "/opt/bin/llvm-ranlib-21"
+      - "/usr/lib/llvm/21/bin/llvm-ranlib21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21"
+      - "/usr/local/sbin/llvm-ranlib21"
+      - "/usr/local/bin/llvm-ranlib21"
+      - "/usr/bin/llvm-ranlib21"
+      - "/opt/bin/llvm-ranlib21"
+    found: "/usr/lib/llvm/21/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    searched_directories:
+      - "/usr/lib/llvm/21/bin/clang-scan-deps-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.1"
+      - "/usr/local/sbin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/opt/bin/clang-scan-deps-21.1"
+      - "/usr/lib/llvm/21/bin/clang-scan-deps-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21"
+      - "/usr/local/sbin/clang-scan-deps-21"
+      - "/usr/local/bin/clang-scan-deps-21"
+      - "/usr/bin/clang-scan-deps-21"
+      - "/opt/bin/clang-scan-deps-21"
+      - "/usr/lib/llvm/21/bin/clang-scan-deps21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps21"
+      - "/usr/local/sbin/clang-scan-deps21"
+      - "/usr/local/bin/clang-scan-deps21"
+      - "/usr/bin/clang-scan-deps21"
+      - "/opt/bin/clang-scan-deps21"
+    found: "/usr/lib/llvm/21/bin/clang-scan-deps"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang++"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++"
+      - "/usr/local/sbin/clang++"
+      - "/usr/local/bin/clang++"
+      - "/usr/bin/clang++"
+      - "/opt/bin/clang++"
+    found: "/usr/lib/llvm/21/bin/clang++"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/lib/llvm/21/bin/clang++ 
+      Build flags: -fsanitize=address,undefined;-fno-omit-frame-pointer;-g
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/4.1.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    searched_directories:
+      - "/usr/lib/llvm/21/bin/llvm-ar-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21.1"
+      - "/usr/local/sbin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21.1"
+      - "/opt/bin/llvm-ar-21.1"
+      - "/usr/lib/llvm/21/bin/llvm-ar-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-21"
+      - "/usr/local/sbin/llvm-ar-21"
+      - "/usr/local/bin/llvm-ar-21"
+      - "/usr/bin/llvm-ar-21"
+      - "/opt/bin/llvm-ar-21"
+      - "/usr/lib/llvm/21/bin/llvm-ar21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar21"
+      - "/usr/local/sbin/llvm-ar21"
+      - "/usr/local/bin/llvm-ar21"
+      - "/usr/bin/llvm-ar21"
+      - "/opt/bin/llvm-ar21"
+    found: "/usr/lib/llvm/21/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    searched_directories:
+      - "/usr/lib/llvm/21/bin/llvm-ranlib-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21.1"
+      - "/usr/local/sbin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/opt/bin/llvm-ranlib-21.1"
+      - "/usr/lib/llvm/21/bin/llvm-ranlib-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-21"
+      - "/usr/local/sbin/llvm-ranlib-21"
+      - "/usr/local/bin/llvm-ranlib-21"
+      - "/usr/bin/llvm-ranlib-21"
+      - "/opt/bin/llvm-ranlib-21"
+      - "/usr/lib/llvm/21/bin/llvm-ranlib21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib21"
+      - "/usr/local/sbin/llvm-ranlib21"
+      - "/usr/local/bin/llvm-ranlib21"
+      - "/usr/bin/llvm-ranlib21"
+      - "/opt/bin/llvm-ranlib21"
+    found: "/usr/lib/llvm/21/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/usr/lib/llvm/21/bin/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+    searched_directories:
+      - "/usr/lib/llvm/21/bin/clang-scan-deps-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-21.1"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21.1"
+      - "/usr/local/sbin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/opt/bin/clang-scan-deps-21.1"
+      - "/usr/lib/llvm/21/bin/clang-scan-deps-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-21"
+      - "/usr/local/sbin/clang-scan-deps-21"
+      - "/usr/local/bin/clang-scan-deps-21"
+      - "/usr/bin/clang-scan-deps-21"
+      - "/opt/bin/clang-scan-deps-21"
+      - "/usr/lib/llvm/21/bin/clang-scan-deps21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps21"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps21"
+      - "/usr/local/sbin/clang-scan-deps21"
+      - "/usr/local/bin/clang-scan-deps21"
+      - "/usr/bin/clang-scan-deps21"
+      - "/opt/bin/clang-scan-deps21"
+    found: "/usr/lib/llvm/21/bin/clang-scan-deps"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U"
+      binary: "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/21/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2ce8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f2ce8.dir/build.make CMakeFiles/cmTC_f2ce8.dir/build
+        gmake[1]: Entering directory '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U'
+        Building C object CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o
+        /usr/lib/llvm/21/bin/clang   -fsanitize=address,undefined -fno-omit-frame-pointer -g    -v -MD -MT CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 21.1.6+libcxx
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm/21/bin
+        Configuration file: /etc/clang/21/x86_64-pc-linux-gnu-clang.cfg
+        System configuration file directory: /etc/clang/21
+        User configuration file directory: /home/stormbyte/.config/clang
+        Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm/21/bin/clang-21" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=5 -debugger-tuning=gdb "-fdebug-compilation-dir=/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U" -v "-fcoverage-compilation-dir=/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U" -resource-dir /usr/lib/llvm/21/bin/../../../../lib/clang/21 -dependency-file CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -sys-header-deps -include /usr/include/gentoo/fortify.h -include /usr/include/gentoo/maybe-stddefs.h -D _GLIBCXX_ASSERTIONS -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_EXTENSIVE -internal-isystem /usr/lib/llvm/21/bin/../../../../lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fstack-clash-protection -fcf-protection=full -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -load LLVMPolly.so -fpass-plugin=LLVMPolly.so -fsanitize=address,alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fsanitize-recover=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,vla-bound -fsanitize-merge=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fsanitize-system-ignorelist=/usr/lib/llvm/21/bin/../../../../lib/clang/21/share/asan_ignorelist.txt -fno-sanitize-memory-param-retval -fsanitize-address-use-after-scope -fsanitize-address-globals-dead-stripping -fno-assume-sane-operator-new -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.1.6+libcxx based upon LLVM 21.1.6+libcxx default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/llvm/21/bin/../../../../lib/clang/21/include
+         /usr/include
+        End of search list.
+        Linking C executable cmTC_f2ce8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ce8.dir/link.txt --verbose=1
+        clang version 21.1.6+libcxx
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm/21/bin
+        Configuration file: /etc/clang/21/x86_64-pc-linux-gnu-clang.cfg
+        System configuration file directory: /etc/clang/21
+        User configuration file directory: /home/stormbyte/.config/clang
+        Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/lib/llvm/21/bin/ld.lld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f2ce8 /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib -L/lib -L/usr/lib --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a --no-whole-archive --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a --no-whole-archive --dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms -z relro -z now -v CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o --no-as-needed -lpthread -lrt -lm -ldl -lresolv /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed -lc /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o
+        LLD 21.1.6 (compatible with GNU linkers)
+        /usr/lib/llvm/21/bin/clang -fsanitize=address,undefined -fno-omit-frame-pointer -g  -fsanitize=address,undefined -v -Wl,-v CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -o cmTC_f2ce8
+        gmake[1]: Leaving directory '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/llvm/21/bin/../../../../lib/clang/21/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/llvm/21/bin/../../../../lib/clang/21/include] ==> [/usr/lib/clang/21/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/clang/21/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2ce8/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f2ce8.dir/build.make CMakeFiles/cmTC_f2ce8.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U']
+        ignore line: [Building C object CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/lib/llvm/21/bin/clang   -fsanitize=address undefined -fno-omit-frame-pointer -g    -v -MD -MT CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 21.1.6+libcxx]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm/21/bin]
+        ignore line: [Configuration file: /etc/clang/21/x86_64-pc-linux-gnu-clang.cfg]
+        ignore line: [System configuration file directory: /etc/clang/21]
+        ignore line: [User configuration file directory: /home/stormbyte/.config/clang]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm/21/bin/clang-21" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=5 -debugger-tuning=gdb "-fdebug-compilation-dir=/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U" -v "-fcoverage-compilation-dir=/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-m1iM8U" -resource-dir /usr/lib/llvm/21/bin/../../../../lib/clang/21 -dependency-file CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -sys-header-deps -include /usr/include/gentoo/fortify.h -include /usr/include/gentoo/maybe-stddefs.h -D _GLIBCXX_ASSERTIONS -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_EXTENSIVE -internal-isystem /usr/lib/llvm/21/bin/../../../../lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fstack-clash-protection -fcf-protection=full -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -load LLVMPolly.so -fpass-plugin=LLVMPolly.so -fsanitize=address alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fsanitize-recover=alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow vla-bound -fsanitize-merge=alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fsanitize-system-ignorelist=/usr/lib/llvm/21/bin/../../../../lib/clang/21/share/asan_ignorelist.txt -fno-sanitize-memory-param-retval -fsanitize-address-use-after-scope -fsanitize-address-globals-dead-stripping -fno-assume-sane-operator-new -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.1.6+libcxx based upon LLVM 21.1.6+libcxx default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/llvm/21/bin/../../../../lib/clang/21/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_f2ce8]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ce8.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.6+libcxx]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm/21/bin]
+        ignore line: [Configuration file: /etc/clang/21/x86_64-pc-linux-gnu-clang.cfg]
+        ignore line: [System configuration file directory: /etc/clang/21]
+        ignore line: [User configuration file directory: /home/stormbyte/.config/clang]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/lib/llvm/21/bin/ld.lld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f2ce8 /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib -L/lib -L/usr/lib --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a --no-whole-archive --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a --no-whole-archive --dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms -z relro -z now -v CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o --no-as-needed -lpthread -lrt -lm -ldl -lresolv /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed -lc /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o]
+          arg [/usr/lib/llvm/21/bin/ld.lld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f2ce8] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o]
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o] ==> obj [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [--whole-archive] ==> ignore
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a]
+          arg [--no-whole-archive] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a]
+          arg [--no-whole-archive] ==> ignore
+          arg [--dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f2ce8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [--no-as-needed] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lrt] ==> lib [rt]
+          arg [-lm] ==> lib [m]
+          arg [-ldl] ==> lib [dl]
+          arg [-lresolv] ==> lib [resolv]
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a]
+          arg [--as-needed] ==> ignore
+          arg [-lunwind] ==> lib [unwind]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a]
+          arg [--as-needed] ==> ignore
+          arg [-lunwind] ==> lib [unwind]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o] ==> obj [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o]
+        linker tool for 'C': /usr/lib/llvm/21/bin/ld.lld
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a]
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a]
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a]
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o] ==> [/usr/lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o]
+        collapse obj [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o] ==> [/usr/lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [pthread;rt;m;dl;resolv;unwind;c;unwind]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o;/usr/lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/15;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/lib/llvm/21/bin/ld.lld" "-v"
+      LLD 21.1.6 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S"
+      binary: "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/lib/llvm/21/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: "-fsanitize=address,undefined -fno-omit-frame-pointer -g"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-fsanitize=address,undefined"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eae5a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_eae5a.dir/build.make CMakeFiles/cmTC_eae5a.dir/build
+        gmake[1]: Entering directory '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S'
+        Building CXX object CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/lib/llvm/21/bin/clang++   -fsanitize=address,undefined -fno-omit-frame-pointer -g    -v -MD -MT CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.6+libcxx
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm/21/bin
+        Configuration file: /etc/clang/21/x86_64-pc-linux-gnu-clang++.cfg
+        System configuration file directory: /etc/clang/21
+        User configuration file directory: /home/stormbyte/.config/clang
+        Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm/21/bin/clang-21" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=5 -debugger-tuning=gdb "-fdebug-compilation-dir=/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S" -v "-fcoverage-compilation-dir=/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S" -resource-dir /usr/lib/llvm/21/bin/../../../../lib/clang/21 -dependency-file CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -include /usr/include/gentoo/fortify.h -include /usr/include/gentoo/maybe-stddefs.h -D _GLIBCXX_ASSERTIONS -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_EXTENSIVE -internal-isystem /usr/include/c++/v1 -internal-isystem /usr/lib/llvm/21/bin/../../../../lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fstack-clash-protection -fcf-protection=full -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -load LLVMPolly.so -fpass-plugin=LLVMPolly.so -fsanitize=address,alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fsanitize-recover=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,vla-bound -fsanitize-merge=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,function,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fsanitize-system-ignorelist=/usr/lib/llvm/21/bin/../../../../lib/clang/21/share/asan_ignorelist.txt -fno-sanitize-memory-param-retval -fsanitize-address-use-after-scope -fsanitize-address-globals-dead-stripping -fno-assume-sane-operator-new -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.6+libcxx based upon LLVM 21.1.6+libcxx default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/v1
+         /usr/lib/llvm/21/bin/../../../../lib/clang/21/include
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_eae5a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae5a.dir/link.txt --verbose=1
+        clang version 21.1.6+libcxx
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm/21/bin
+        Configuration file: /etc/clang/21/x86_64-pc-linux-gnu-clang++.cfg
+        System configuration file directory: /etc/clang/21
+        User configuration file directory: /home/stormbyte/.config/clang
+        Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/lib/llvm/21/bin/ld.lld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_eae5a /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib -L/lib -L/usr/lib --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a --no-whole-archive --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a --no-whole-archive --dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_cxx-x86_64.a --no-whole-archive --dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_cxx-x86_64.a.syms -z relro -z now -v CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm --no-as-needed -lpthread -lrt -lm -ldl -lresolv /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed -lc /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o
+        LLD 21.1.6 (compatible with GNU linkers)
+        /usr/lib/llvm/21/bin/clang++ -fsanitize=address,undefined -fno-omit-frame-pointer -g  -fsanitize=address,undefined -v -Wl,-v CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eae5a
+        gmake[1]: Leaving directory '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/v1]
+          add: [/usr/lib/llvm/21/bin/../../../../lib/clang/21/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/v1] ==> [/usr/include/c++/v1]
+        collapse include dir [/usr/lib/llvm/21/bin/../../../../lib/clang/21/include] ==> [/usr/lib/clang/21/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/v1;/usr/lib/clang/21/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eae5a/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_eae5a.dir/build.make CMakeFiles/cmTC_eae5a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S']
+        ignore line: [Building CXX object CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/lib/llvm/21/bin/clang++   -fsanitize=address undefined -fno-omit-frame-pointer -g    -v -MD -MT CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.6+libcxx]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm/21/bin]
+        ignore line: [Configuration file: /etc/clang/21/x86_64-pc-linux-gnu-clang++.cfg]
+        ignore line: [System configuration file directory: /etc/clang/21]
+        ignore line: [User configuration file directory: /home/stormbyte/.config/clang]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm/21/bin/clang-21" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=5 -debugger-tuning=gdb "-fdebug-compilation-dir=/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S" -v "-fcoverage-compilation-dir=/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/CMakeScratch/TryCompile-8cOj0S" -resource-dir /usr/lib/llvm/21/bin/../../../../lib/clang/21 -dependency-file CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -include /usr/include/gentoo/fortify.h -include /usr/include/gentoo/maybe-stddefs.h -D _GLIBCXX_ASSERTIONS -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_EXTENSIVE -internal-isystem /usr/include/c++/v1 -internal-isystem /usr/lib/llvm/21/bin/../../../../lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fstack-clash-protection -fcf-protection=full -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -load LLVMPolly.so -fpass-plugin=LLVMPolly.so -fsanitize=address alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fsanitize-recover=alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow vla-bound -fsanitize-merge=alignment array-bounds bool builtin enum float-cast-overflow function integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fsanitize-system-ignorelist=/usr/lib/llvm/21/bin/../../../../lib/clang/21/share/asan_ignorelist.txt -fno-sanitize-memory-param-retval -fsanitize-address-use-after-scope -fsanitize-address-globals-dead-stripping -fno-assume-sane-operator-new -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.6+libcxx based upon LLVM 21.1.6+libcxx default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/v1]
+        ignore line: [ /usr/lib/llvm/21/bin/../../../../lib/clang/21/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_eae5a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae5a.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.6+libcxx]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm/21/bin]
+        ignore line: [Configuration file: /etc/clang/21/x86_64-pc-linux-gnu-clang++.cfg]
+        ignore line: [System configuration file directory: /etc/clang/21]
+        ignore line: [User configuration file directory: /home/stormbyte/.config/clang]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/lib/llvm/21/bin/ld.lld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_eae5a /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib -L/lib -L/usr/lib --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a --no-whole-archive --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a --no-whole-archive --dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms --whole-archive /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_cxx-x86_64.a --no-whole-archive --dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_cxx-x86_64.a.syms -z relro -z now -v CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm --no-as-needed -lpthread -lrt -lm -ldl -lresolv /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed -lc /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -lunwind --no-as-needed /usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o]
+          arg [/usr/lib/llvm/21/bin/ld.lld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_eae5a] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o]
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o] ==> obj [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [--whole-archive] ==> ignore
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a]
+          arg [--no-whole-archive] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a]
+          arg [--no-whole-archive] ==> ignore
+          arg [--dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a.syms] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_cxx-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_cxx-x86_64.a]
+          arg [--no-whole-archive] ==> ignore
+          arg [--dynamic-list=/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_cxx-x86_64.a.syms] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_eae5a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lm] ==> lib [m]
+          arg [--no-as-needed] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lrt] ==> lib [rt]
+          arg [-lm] ==> lib [m]
+          arg [-ldl] ==> lib [dl]
+          arg [-lresolv] ==> lib [resolv]
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a]
+          arg [--as-needed] ==> ignore
+          arg [-lunwind] ==> lib [unwind]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a]
+          arg [--as-needed] ==> ignore
+          arg [-lunwind] ==> lib [unwind]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o] ==> obj [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/lib/llvm/21/bin/ld.lld
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_static-x86_64.a]
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan-x86_64.a]
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.asan_cxx-x86_64.a]
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a]
+        remove lib [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/libclang_rt.builtins-x86_64.a]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o] ==> [/usr/lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o]
+        collapse obj [/usr/lib/llvm/21/bin/../../../../lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o] ==> [/usr/lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/15]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [c++;m;pthread;rt;m;dl;resolv;unwind;c;unwind]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib/clang/21/lib/linux/clang_rt.crtbegin-x86_64.o;/usr/lib/clang/21/lib/linux/clang_rt.crtend-x86_64.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/15;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/lib/llvm/21/bin/ld.lld" "-v"
+      LLD 21.1.6 (compatible with GNU linkers)
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:69 (find_program)"
+      - "/usr/share/cmake/Modules/FindSQLite3.cmake:52 (find_package)"
+      - "CMakeLists.txt:61 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/bin/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/pkgconf"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/usr/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "/usr/share/cmake/Modules/FindSQLite3.cmake:54 (pkg_check_modules)"
+      - "CMakeLists.txt:61 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_SQLite3_sqlite3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3"
+    candidate_directories:
+      - "/usr/lib64/"
+    found: "/usr/lib64/libsqlite3.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/x86_64-pc-linux-gnu/lib//gcc"
+        - "/usr/x86_64-pc-linux-gnu/lib/"
+        - "/usr/lib64"
+        - "/usr/libx32"
+        - "/usr/lib32"
+        - "/usr/lib"
+        - "/lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindSQLite3.cmake:58 (find_path)"
+      - "CMakeLists.txt:61 (find_package)"
+    mode: "path"
+    variable: "SQLite3_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3.h"
+    candidate_directories:
+      - "/usr/include/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindSQLite3.cmake:65 (find_library)"
+      - "CMakeLists.txt:61 (find_package)"
+    mode: "library"
+    variable: "SQLite3_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sqlite3"
+      - "sqlite"
+    candidate_directories:
+      - "/usr/lib64/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/x86_64-pc-linux-gnu/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/lib64/"
+      - "/lib/"
+    found: "/usr/lib64/libsqlite3.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/x86_64-pc-linux-gnu/lib//gcc"
+        - "/usr/x86_64-pc-linux-gnu/lib/"
+        - "/usr/lib64"
+        - "/usr/libx32"
+        - "/usr/lib32"
+        - "/usr/lib"
+        - "/lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/FindConfig++.cmake:2 (find_path)"
+      - "CMakeLists.txt:62 (find_package)"
+    mode: "path"
+    variable: "Config++_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libconfig.h++"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/libconfig.h++"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/libconfig.h++"
+      - "/usr/local/sbin/libconfig.h++"
+      - "/usr/local/bin/libconfig.h++"
+      - "/usr/bin/libconfig.h++"
+      - "/opt/bin/libconfig.h++"
+      - "/usr/lib/llvm/21/bin/libconfig.h++"
+      - "/usr/local/include/libconfig.h++"
+      - "/usr/local/libconfig.h++"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/FindConfig++.cmake:6 (find_library)"
+      - "CMakeLists.txt:62 (find_package)"
+    mode: "library"
+    variable: "Config++_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "config++"
+      - "config++"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/x86_64-pc-linux-gnu/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/lib64/"
+      - "/lib/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib64/libconfig++.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/x86_64-pc-linux-gnu/lib//gcc"
+        - "/usr/x86_64-pc-linux-gnu/lib/"
+        - "/usr/lib64"
+        - "/usr/libx32"
+        - "/usr/lib32"
+        - "/usr/lib"
+        - "/lib"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/lib64/cmake/Boost-1.88.0/BoostConfig.cmake:141 (find_package)"
+      - "/usr/lib64/cmake/Boost-1.88.0/BoostConfig.cmake:215 (boost_find_component)"
+      - "CMakeLists.txt:63 (find_package)"
+    name: "boost_headers"
+    configs:
+      -
+        filename: "boost_headersConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_headers-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.88.0"
+      version_complete: "1.88.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/usr/lib64/cmake"
+      names:
+        - "boost_headers"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/pkgRedirects/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/pkgRedirects/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_headers-1.88.0/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib64/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+      mode: "config"
+      version: "1.88.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:63 (find_package)"
+    name: "Boost"
+    configs:
+      -
+        filename: "BoostConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Boost"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/pkgRedirects/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/CMakeFiles/pkgRedirects/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_graph-1.88.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_graph-1.88.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_graph_parallel-1.88.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_graph_parallel-1.88.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_log-1.88.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_log-1.88.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_log_setup-1.88.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_log_setup-1.88.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_atomic-1.88.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_atomic-1.88.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_contract-1.88.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_contract-1.88.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_filesystem-1.88.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_filesystem-1.88.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_system-1.88.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/boost_system-1.88.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib64/cmake/Boost-1.88.0/BoostConfig.cmake"
+      mode: "config"
+      version: "1.88.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_MODULE_PATH:
+        - "/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/cmake"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGit.cmake:86 (find_program)"
+      - "CMakeLists.txt:64 (find_package)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/bin/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/usr/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/FindJsonCpp.cmake:1 (find_path)"
+      - "CMakeLists.txt:65 (find_package)"
+    mode: "path"
+    variable: "JsonCpp_INCLUDE_DIR"
+    description: "jsoncpp include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "json/json.h"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/jsoncpp/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/jsoncpp/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/jsoncpp/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/jsoncpp/"
+      - "/usr/local/bin/"
+      - "/usr/bin/jsoncpp/"
+      - "/usr/bin/"
+      - "/opt/bin/jsoncpp/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/jsoncpp/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/include/jsoncpp/"
+      - "/usr/local/include/"
+      - "/usr/local/jsoncpp/"
+      - "/usr/local/"
+      - "/usr/include/jsoncpp/"
+      - "/usr/include/"
+      - "/usr/jsoncpp/"
+      - "/usr/"
+      - "/include/jsoncpp/"
+      - "/include/"
+      - "/usr/X11R6/include/jsoncpp/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/jsoncpp/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/jsoncpp/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/jsoncpp/"
+      - "/usr/pkg/"
+      - "/opt/include/jsoncpp/"
+      - "/opt/include/"
+      - "/opt/jsoncpp/"
+      - "/opt/"
+      - "/usr/include/jsoncpp/"
+      - "/usr/include/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/jsoncpp/json/json.h"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/json/json.h"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/jsoncpp/json/json.h"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/json/json.h"
+      - "/usr/local/sbin/jsoncpp/json/json.h"
+      - "/usr/local/sbin/json/json.h"
+      - "/usr/local/bin/jsoncpp/json/json.h"
+      - "/usr/local/bin/json/json.h"
+      - "/usr/bin/jsoncpp/json/json.h"
+      - "/usr/bin/json/json.h"
+      - "/opt/bin/jsoncpp/json/json.h"
+      - "/opt/bin/json/json.h"
+      - "/usr/lib/llvm/21/bin/jsoncpp/json/json.h"
+      - "/usr/lib/llvm/21/bin/json/json.h"
+      - "/usr/local/include/jsoncpp/json/json.h"
+      - "/usr/local/include/json/json.h"
+      - "/usr/local/jsoncpp/json/json.h"
+      - "/usr/local/json/json.h"
+    found: "/usr/include/jsoncpp/"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/FindJsonCpp.cmake:6 (find_library)"
+      - "CMakeLists.txt:65 (find_package)"
+    mode: "library"
+    variable: "JsonCpp_LIBRARY"
+    description: "jsoncpp library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jsoncpp"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/x86_64-pc-linux-gnu/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/lib64/"
+      - "/lib/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib64/libjsoncpp.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/x86_64-pc-linux-gnu/lib//gcc"
+        - "/usr/x86_64-pc-linux-gnu/lib/"
+        - "/usr/lib64"
+        - "/usr/libx32"
+        - "/usr/lib32"
+        - "/usr/lib"
+        - "/lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:67 (find_program)"
+    mode: "program"
+    variable: "FFMPEG_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ffmpeg"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/bin/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ffmpeg"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ffmpeg"
+      - "/usr/local/sbin/ffmpeg"
+      - "/usr/local/bin/ffmpeg"
+    found: "/usr/bin/ffmpeg"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/usr/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:69 (find_program)"
+    mode: "program"
+    variable: "FFPROBE_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ffprobe"
+    candidate_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/bin/"
+      - "/usr/lib/llvm/21/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/bin/"
+    searched_directories:
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ffprobe"
+      - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ffprobe"
+      - "/usr/local/sbin/ffprobe"
+      - "/usr/local/bin/ffprobe"
+    found: "/usr/bin/ffprobe"
+    search_context:
+      ENV{PATH}:
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/stormbyte/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/bin"
+        - "/usr/lib/llvm/21/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/usr/bin"
+        - "/bin"
+...

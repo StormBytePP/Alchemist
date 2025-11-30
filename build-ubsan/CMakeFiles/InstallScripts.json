@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/cmake_install.cmake",
+		"/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/lib/cmake_install.cmake",
+		"/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/lib/database/cmake_install.cmake",
+		"/home/stormbyte/Software/StormByte/StormByte-VideoConvert (copia)/build-ubsan/frontend/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
